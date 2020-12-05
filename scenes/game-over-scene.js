@@ -6,7 +6,6 @@ var gameOverConfig = {
 
 var gameOverBackgroundSetup, gameOverSetting;
 var replayButton, helpButton, settingsButton;
-var scorePosted = false;
 
 function preload() {
     gameOverBackgroundSetup = new BackgroundSetup(this);
@@ -46,11 +45,6 @@ function create() {
     gameOverText.setScale(gameWidth * 0.8 / gameOverText.width);
 
     var score = this.data.values.score;
-    if (!scorePosted) {
-        scorePosted = true;
-        postGameScore(score);
-    }
-
     var scoreText = this.add.text(window.innerWidth / 2, window.innerHeight / 2 - gameHeight * 0.05, 'Score:', { 
         fontFamily: 'VT323', 
         fontSize: '720px', 
