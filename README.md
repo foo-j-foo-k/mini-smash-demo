@@ -7,6 +7,6 @@ Click below to play:
 
 **[Chocolate Factory](https://foo-j-foo-k.github.io/mini-smash-demo/mini-games/chocolate-factory/) |
 [Mashed Potatoes](https://foo-j-foo-k.github.io/mini-smash-demo/mini-games/mashed-potatoes/) |
-[Size Matters](https://foo-j-foo-k.github.io/mini-smash-demo/mini-game/size-matters/)**
+[Size Matters](https://foo-j-foo-k.github.io/mini-smash-demo/mini-games/size-matters/)**
 
 ![demo](assets/demo.png)
